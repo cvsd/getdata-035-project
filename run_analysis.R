@@ -41,7 +41,7 @@ selected_data <- selected_data[, 2:ncol(selected_data)]
 
 ## Step 4: Appropriately labels the data set with descriptive variable names
 colnames(selected_data) <- gsub("mean","Mean",colnames(selected_data))
-colnames(selected_data) <- gsub("std","SD",colnames(selected_data))
+colnames(selected_data) <- gsub("std","StandardDeviation",colnames(selected_data))
 ## Remove any nonword charactor
 colnames(selected_data) <- gsub("\\W","",colnames(selected_data))
 
