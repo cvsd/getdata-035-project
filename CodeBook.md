@@ -616,4 +616,92 @@ In all, there are 561 variables of measurements in raw data (see features.txt).
 
 # Summary choices
 =================
-The tidy data set is produced only from the measurements on the mean and standard deviation for each measurement, summerized by  average of each variable for each activity and each subject.
+The tidy data set is produced only from the measurements on the mean and standard deviation for each measurement, summerized by  average of each variable for each activity and each subject. The variable name was simplified by removing any nonword charactor.
+
+* subjectId (Group index 1)
+* activityName (Group index 2)
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStandardDeviationX
+* tBodyAccStandardDeviationY
+* tBodyAccStandardDeviationZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStandardDeviationX
+* tGravityAccStandardDeviationY
+* tGravityAccStandardDeviationZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStandardDeviationX
+* tBodyAccJerkStandardDeviationY
+* tBodyAccJerkStandardDeviationZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStandardDeviationX
+* tBodyGyroStandardDeviationY
+* tBodyGyroStandardDeviationZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStandardDeviationX
+* tBodyGyroJerkStandardDeviationY
+* tBodyGyroJerkStandardDeviationZ
+* tBodyAccMagMean
+* tBodyAccMagStandardDeviation
+* tGravityAccMagMean
+* tGravityAccMagStandardDeviation
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStandardDeviation
+* tBodyGyroMagMean
+* tBodyGyroMagStandardDeviation
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStandardDeviation
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStandardDeviationX
+* fBodyAccStandardDeviationY
+* fBodyAccStandardDeviationZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStandardDeviationX
+* fBodyAccJerkStandardDeviationY
+* fBodyAccJerkStandardDeviationZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStandardDeviationX
+* fBodyGyroStandardDeviationY
+* fBodyGyroStandardDeviationZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagStandardDeviation
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagStandardDeviation
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagStandardDeviation
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagStandardDeviation
+* fBodyBodyGyroJerkMagMeanFreq
+* angletBodyAccMeangravity
+* angletBodyAccJerkMeangravityMean
+* angletBodyGyroMeangravityMean
+* angletBodyGyroJerkMeangravityMean
+* angleXgravityMean
+* angleYgravityMean
+* angleZgravityMean
